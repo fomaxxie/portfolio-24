@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Github, Twitter, Linkedin, Mail } from 'lucide-react'
+import { sendEmail } from './EmailService';
 
 function Portfolio({ children }) {
   const [cursorTrail, setCursorTrail] = useState([])
@@ -101,7 +102,7 @@ function Portfolio({ children }) {
 
           I’ve been immersed in the online space since 2020, starting with online
           marketing and expanding my expertise to include Facebook ads, e-commerce,
-          eventually building profitable online stores, and more. 
+          eventually building profitable online stores, and more.
 
           Now, I’m fully committed to the AI field, envisioning a long-term journey of
           over a decade in this transformative industry.
@@ -133,24 +134,30 @@ function Portfolio({ children }) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.5 }}
-          className="mb-12 mt-12"
+          className="my-12"
         >
-          <h2 className="text-2xl font-semibold mb-4">Let's connect</h2>
-          <form className="space-y-4">
+          <h2 className="text-2xl font-semibold mb-4">Contact Me</h2>
+          <form className="space-y-4" onSubmit={sendEmail}>
             <input
               type="text"
+              name="name"
               placeholder="Your Name"
               className="w-full p-2 border border-gray-300 rounded-md"
+              required
             />
             <input
               type="email"
+              name="email"
               placeholder="Your Email"
               className="w-full p-2 border border-gray-300 rounded-md"
+              required
             />
             <textarea
+              name="message"
               placeholder="Your Message"
               className="w-full p-2 border border-gray-300 rounded-md"
               rows="4"
+              required
             ></textarea>
             <button
               type="submit"
