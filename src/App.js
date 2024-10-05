@@ -23,11 +23,11 @@ function Portfolio({ children }) {
 
   const projects = [
     "Currently exploring chatbots, voicebots, workflow automation, and other AI solutions for businesses",
-    "Automation of the profit tracking process for my ecommerce store integrating Shopify API and Google Sheets",
+    "Automation of the profit tracking process for my ecommerce store integrating Shopify API into Google Sheets",
     "pdf to jpg / jpg to pdf converter - implemented in a day with ChatGPT",
-    "https://fancytodolist.xyz/ - implemented in React, Node.js, using V0 and ChatGPT",
+    "https://fancytodolist.xyz/ - implemented in React, using V0 and ChatGPT",
     "AI_Apply: A web app that helps users generate AI-powered cover letters and resume summaries. Implemented with ruby on rails and javascript, includes OpenAI and Stripe APIs, and hosted on Render. Currently off because don't want to pay for DB and API calls.",
-    "Midpoint: A flight searching platform that helps travelers find the best midpoint destinations for meeting up with friends and family. A final bootcamp project implemented in Ruby on Rails, includes integration with APIs: Mapbox, OpenAI, flight search engine, unsplash, and hosted on Heroku.",
+    "Midpoint: A flight searching platform that helps travelers find the best midpoint destinations for meeting up with friends and family. A final bootcamp project implemented in Ruby on Rails, includes integration with APIs: Mapbox, OpenAI, flight search engine, unsplash, hosted on Heroku.",
     "Created fully functional and profitable Shopify stores from scratch",
   ]
 
@@ -97,14 +97,11 @@ function Portfolio({ children }) {
           <p className="text-gray-700 leading-relaxed">
           I’m passionate about leveraging technology to drive business success.
 
-          we specialize in developing
-          AI systems that help businesses save time and increase profitability.
-          With AutoIGDM, we focus on automated Instagram outreach to identify and engage your
-          ideal target audience, helping you secure more clients.
+          I specialize in developing AI-powered systems that help businesses save time and increase profitability.
 
-          I’ve been immersed in the online space since 2016, starting with Instagram
-          marketing and expanding my expertise to include building funnels, Facebook ads,
-          e-commerce, YouTube automation, and more.
+          I’ve been immersed in the online space since 2020, starting with online
+          marketing and expanding my expertise to include Facebook ads, e-commerce,
+          eventually building profitable online stores, and more. 
 
           Now, I’m fully committed to the AI field, envisioning a long-term journey of
           over a decade in this transformative industry.
