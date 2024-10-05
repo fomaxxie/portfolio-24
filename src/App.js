@@ -140,14 +140,14 @@ function Portfolio({ children }) {
           <form className="space-y-4" onSubmit={sendEmail}>
             <input
               type="text"
-              name="name"
+              name="user_name"
               placeholder="Your Name"
               className="w-full p-2 border border-gray-300 rounded-md"
               required
             />
             <input
               type="email"
-              name="email"
+              name="user_email"
               placeholder="Your Email"
               className="w-full p-2 border border-gray-300 rounded-md"
               required
