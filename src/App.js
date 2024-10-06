@@ -100,9 +100,11 @@ function Portfolio({ children }) {
 
           I specialize in developing AI-powered systems that help businesses save time and increase profitability.
 
-          I’ve been immersed in the online space since 2020, starting with online
-          marketing and expanding my expertise to include Facebook ads, e-commerce,
-          eventually building profitable online stores, and more.
+          I’ve been immersed in the online space since 2020, starting with e-commerce: creating funnels, building profitable
+          online stores, creating and running paid ads on Facebook and filming viral TikTok videos to drive organic traffic.
+          
+          Completing a bootcamp in 2023, I have gained a solid foundation in web development which allowed me to develop
+          AI-powered applications and automation tools I use in my ecommerce business.
 
           Now, I’m fully committed to the AI field, envisioning a long-term journey of
           over a decade in this transformative industry.
