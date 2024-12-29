@@ -24,6 +24,7 @@ function Portfolio({ children }) {
 
   const projects = [
     "Currently exploring chatbots, voicebots, workflow automation, and other AI solutions for businesses",
+    "Build fully functional customer support chatbot for my ecommerce store using Botpress and Make.com",
     "Automation of the profit tracking process for my ecommerce store integrating Shopify API into Google Sheets",
     "pdf to jpg / jpg to pdf converter - implemented in a day with ChatGPT",
     "https://fancytodolist.xyz/ - implemented in React, using V0 and ChatGPT",
@@ -102,7 +103,7 @@ function Portfolio({ children }) {
 
           I’ve been immersed in the online space since 2020, starting with e-commerce: creating funnels, building profitable
           online stores, creating and running paid ads on Facebook and filming viral TikTok videos to drive organic traffic.
-          
+
           Completing a bootcamp in 2023, I have gained a solid foundation in web development which allowed me to develop
           AI-powered applications and automation tools I use in my ecommerce business.
 
